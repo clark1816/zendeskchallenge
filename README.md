@@ -4,8 +4,9 @@ coded zendesk challenge using python and the streamlit library to publish the we
 to run this program you must run 2 commands in your console or just click the link to take you to the web app. Make sure you already have python installed.
 
 //to run on local host//
-1. type - pip3 install -r requirements.txt
-2. type - streamlit run getdata.py
+1.clone repo
+2. type - pip3 install -r requirements.txt
+3. type - streamlit run getdata.py
 
 //to run on web browser// 
 visit https://share.streamlit.io/clark1816/zendeskchallenge/main/getdata.py
