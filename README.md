@@ -17,3 +17,5 @@ Challenges I faced - At first I was having trouble getting connected to the zend
 Once I figured it out it was smooth sailing. Till I got to the part when it came time to add the next and previous option. As you will see my program lacks those functions
 this is because I was not able to figure out how to get it work with a json file. I got it to work with a large pandas data frame which was nicely organized in csv. I found online resources that showed different way but I would neeed help from someone to figure out how to add the next option in streamlit with a json file. The next and previous option work sometimes you have to press it twise but other than that all requirements work well. 
 
+//small issue
+the next and previous buttons are a bit unresponsive so u have to click them twice to get them to work. They will only take u to a next page on the all tickets option.
