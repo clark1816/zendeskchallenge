@@ -1,6 +1,7 @@
 import streamlit as st
 import requests, json
 import SessionState
+import config
 st.sidebar.header("Endpoints")
 endpoint_choices = ['All Tickets', 'Solved Tickets', 'Open Tickets', 'Pending Tickets']
 endpoint = st.sidebar.selectbox("Choose an Endpoint", endpoint_choices)
@@ -8,9 +9,9 @@ endpoint = st.sidebar.selectbox("Choose an Endpoint", endpoint_choices)
 st.title(f"Zendesk Code Challenge - {endpoint}")
 
 #set request params
-url = 'https://zendeskcodingchallenge2053.zendesk.com/api/v2/tickets.json'
-user = 'camst149@mail.rmu.edu'
-pwd = 'Cman3742!'
+url = config.zendeskurl
+user = config.user
+pwd = config.pwd
 
 # Do the HTTP get request
 response = requests.get(url, auth=(user, pwd))
