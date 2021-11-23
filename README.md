@@ -15,7 +15,5 @@ the streamlit library better.
 
 Challenges I faced - At first I was having trouble getting connected to the zendesk api and getting my requests to come through. 
 Once I figured it out it was smooth sailing. Till I got to the part when it came time to add the next and previous option. As you will see my program lacks those functions
-this is because I was not able to figure out how to get it work with a json file. I got it to work with a large pandas data frame which was nicely organized in csv. I found online resources that showed different way but I would neeed help from someone to figure out how to add the next option in streamlit with a json file. I did attempt all the requirements and only fell short on one so I am very happy with my work on this challenge.I hope others are impressed as well. Other than that one thing that doesnt work all the other functions and features work great are organized well. 
+this is because I was not able to figure out how to get it work with a json file. I got it to work with a large pandas data frame which was nicely organized in csv. I found online resources that showed different way but I would neeed help from someone to figure out how to add the next option in streamlit with a json file. The next and previous option work sometimes you have to press it twise but other than that all requirements work well. 
 
-
-Currently still working on getting the 25 day function to work will probaly be working by tonight 11.22.21 at around 9pm
